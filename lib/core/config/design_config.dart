@@ -13,6 +13,12 @@ class DesignConfig {
   static const Color appBarTitleColor = Colors.black;
 
 
+  static const Color buttonColor = Color(0xFFBFD833);
+
+  static const Color sliderActiveColor = Color(0xFF6F6F6F);
+  static const Color selectedColor = Color(0xFFD9D9D9);
+
+
 
   // static const Color priceColor = Color(0xFF027A92);
   // static const Color shadowColor = Colors.black26;

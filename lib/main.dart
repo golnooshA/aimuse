@@ -1,4 +1,6 @@
+import 'package:aimuse/presentation/pages/filter_page.dart';
 import 'package:flutter/material.dart';
+import 'core/config/app_them.dart';
 import 'presentation/pages/home_page.dart';
 
 void main() {
@@ -10,8 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'AiMuse',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePage(),
+      theme: AppTheme.lightTheme,
+      home: FilterPage(),
       debugShowCheckedModeBanner: false,
     );
   }
